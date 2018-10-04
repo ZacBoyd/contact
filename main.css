@@ -4,6 +4,7 @@ body {
   width: 100%;
   margin: 0;
   justify-content: center;
+  background-color: #000000;
 }
 
 section {
@@ -32,7 +33,7 @@ img {
     object-fit: contain;
 }
 
-img.profile-pic {
+img.company-logo {
 	height: 30%;
 	width: 30%;
 	object-fit: cover;
@@ -128,14 +129,15 @@ img.profile-pic {
 
 .primary-info {
 	height: 15%;
+  padding-bottom: 4%;
 }
 
 .secondary-info {
-	height: 8%;
+	height: 4%;
 }
 
-.bg-color-grey {
-	background-color: #F2F2F2;
+.bg-color-black {
+	background-color: #000000;
 }
 
 .bg-color-white {
@@ -143,41 +145,45 @@ img.profile-pic {
 }
 
 .text-name {
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
-    color: #333333;
+    color: #FFFFFF;
     font-size: 20px;
+    text-transform: uppercase;
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-.text-title-company {
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    color: #333333;
-    font-size: 12px;
+.text-title {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    font-style: italic;
 }
 
 .text-detail {
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     font-weight: 300;
-    color: #575757;
-    font-size: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.border-name {
+    border-width: 1px;
+    border-bottom-width:1px;
+    border-bottom-color:White;
+    border-bottom-style: solid;
 }
 
 .bottom {
 	height: 23%;
-}
-
-.button {
-	background-color: #219653;
-	height: 48px;
-	padding-left: 24px
-	padding-right: 24px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 48px;
-	font-family: 'Muli', sans-serif;
-	color: white;
-	font-weight: 300;
 }
 
 @media screen and (max-width: 600px) {
