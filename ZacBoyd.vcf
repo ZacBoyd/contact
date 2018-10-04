@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:Boyd;Zac;;;
+FN: Zac  Boyd
+ORG:ATEO;
+TITLE:Senior Consultant
+EMAIL;type=INTERNET;type=WORK;type=pref:zac.boyd@ateo.com.au
+TEL;type=MOBILE;type=VOICE:+61 403 683 816
+item2.URL;type=pref:ateo.com.au
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
